@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CRM software">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mixland</title>
+</head>
+
+<body>
+    <section class="bg-white md:h-screen">
+        <div class="mx-auto flex justify-center h-full flex-col lg:flex-row">
+            <!-- Login Form -->
+            <form id="login" class="w-full lg:w-1/2 flex justify-center bg-[#12141d]/95  px-2">
+                <div
+                    class="w-full sm:w-4/6 md:w-3/6 lg:w-2/3 text-gray-800 dark:text-gray-100 mb-12 sm:mb-0 flex flex-col justify-center px-2 sm:px-0">
+                    <div class="mt-8 w-full px-2 sm:px-6">
+                        <div class="flex flex-col mt-8">
+                            <label for="email" class="text-lg font-semibold leading-tight">Email</label>
+                            <input required autocomplete="off" id="email" name="email"
+                                class="h-10 px-2 w-full rounded mt-2 text-gray-600 focus:outline-none focus:border focus:border-indigo-700 border-gray-300 border shadow"
+                                type="email" />
+                        </div>
+                        <div class="flex flex-col mt-5">
+                            <label for="password" class="text-lg font-semibold fleading-tight">Password</label>
+                            <input required autocomplete="off" id="password" name="password"
+                                class="h-10 px-2 w-full rounded mt-2 text-gray-600 focus:outline-none focus:border focus:border-indigo-700 border-gray-300 border shadow"
+                                type="password" />
+                        </div>
+                    </div>
+                    <div class="pt-6 w-full flex justify-between px-2 sm:px-6">
+                        <div class="flex items-center">
+                            <input id="rememberme" name="rememberme"
+                                class="focus:outline-none focus:ring-2 focus:ring-offset-3 focus:ring-indigo-600 w-3 h-3 mr-2"
+                                type="checkbox" />
+                            <label for="rememberme" class="text-xs">Remember Me</label>
+                        </div>
+                        <a class="text-xs text-indigo-600 focus:underline focus:text-indigo-800 focus:outline-none hover:text-indigo-800 "
+                            href="#">Forgot Password?</a>
+                    </div>
+                    <div class="px-2 sm:mb-16 sm:px-6">
+                        <button type="submit"
+                            class="focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 focus:bg-indigo-700 focus:outline-none w-full sm:w-auto bg-indigo-600 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-8 py-3 text-sm mt-6">Login
+                            to Your Account</button>
+                        <p class="mt-6 text-xs">Don’t Have An Account? <a
+                                class="focus:underline focus:text-indigo-800 hover:text-indigo-700 focus:outline-none text-indigo-600"
+                                href="./sign-up.html">Sign Up</a></p>
+                    </div>
+                </div>
+            </form>
+            <!-- Info -->
+            <div class="w-full lg:w-1/2 px-2 py-40 sm:py-48 sm:px-12 flex flex-col justify-center relative bg-no-repeat bg-center bg-cover h-full"
+                style="background-image: url(./images/sign-in.jpg)">
+                <div class="absolute top-0 right-0 pt-3 pr-3 text-white">
+                    <svg width="199" height="131" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="rotate(-90 65.5 65)" fill="#F7FAFC" fill-rule="evenodd">
+                            <rect width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="24.015" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="24.015" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="24.015" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="24.015" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="24.015" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="48.029" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="48.029" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="48.029" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="48.029" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="48.029" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="72.044" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="72.044" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="72.044" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="72.044" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="72.044" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="96.059" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="96.059" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="96.059" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="96.059" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="96.059" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="120.073" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="120.073" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="120.073" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="120.073" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="120.073" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="144.088" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="144.088" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="144.088" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="144.088" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="144.088" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="168.103" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="168.103" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="168.103" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="168.103" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="168.103" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="192.117" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="192.117" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="192.117" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="192.117" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="192.117" width="6.002" height="6.005" rx="3.001" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="flex relative z-30 flex-col justify-center py-4 md:py-0 pl-4 md:pr-12 xl:pr-12 md:pl-24">
+                    <p class="text-base md:text-lg lg:text-xl text-white leading-normal xl:w-10/12">
+                        Providing all customer service within one software. Our landing page template works on all
+                        devices and we have completely redesigned the project management experience.
+                    </p>
+                </div>
+                <div class="z-20 absolute bottom-0 left-0 pb-3 pl-3 text-white">
+                    <svg width="199" height="131" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="rotate(-90 65.5 65)" fill="#F7FAFC" fill-rule="evenodd">
+                            <rect width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="24.015" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="24.015" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="24.015" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="24.015" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="24.015" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="48.029" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="48.029" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="48.029" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="48.029" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="48.029" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="72.044" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="72.044" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="72.044" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="72.044" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="72.044" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="96.059" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="96.059" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="96.059" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="96.059" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="96.059" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="120.073" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="120.073" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="120.073" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="120.073" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="120.073" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="144.088" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="144.088" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="144.088" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="144.088" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="144.088" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="168.103" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="168.103" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="168.103" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="168.103" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="168.103" width="6.002" height="6.005" rx="3.001" />
+                            <rect y="192.117" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="31.002" y="192.117" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="62.003" y="192.117" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="93.005" y="192.117" width="6.002" height="6.005" rx="3.001" />
+                            <rect x="124.007" y="192.117" width="6.002" height="6.005" rx="3.001" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
